@@ -1,0 +1,58 @@
+/* 전체 레이아웃 및 배경 */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+/* 가운데 정렬된 박스 */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 메인 타이틀 */
+h1 {
+  text-align: center;
+  color: #306998;
+  margin-bottom: 30px;
+}
+
+/* 문제 블록 */
+#question-block {
+  background-color: #e6f0fa;
+  border-left: 6px solid #306998;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+#python-question {
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  color: #2a2a2a;
+  white-space: pre-wrap;
+}
+
+/* 답안 블록 */
+#answer-block {
+  margin-bottom: 30px;
+}
+
+/* 입력창 스타일 */
+#user-answer {
+  width: 100%;
+  padding: 16px;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  border: 2px solid #FFD43B;
+  border-radius: 12px;
+  resize: vertical;
+  background-color: #fffbe6;
+  transition: border-color 0.3s,
